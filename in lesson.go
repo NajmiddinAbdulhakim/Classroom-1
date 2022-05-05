@@ -107,18 +107,90 @@ func main() {
 	// 	fallthrough
 	// default:
 	// 	fmt.Println("default")
+	
+	// var a int
+    // fmt.Scan(&a)
+    // switch a {
+    //     case a < 0: 
+	// 		fmt.Println("Oтрицательное число")
+    //     case a > 0: 
+	// 		fmt.Println("Число положительное")
+    //     case a == 0: 
+	// 		fmt.Println("ноль")
+
+	// var c uint32
+	// fmt.Scan(&c)
+	// switch {
+	// case 1 <= c && c <= 9:
+	// 	fmt.Println("от 1 до 9")
+	// case 100 <= c && c <= 250:
+	// 	fmt.Println("от 100 до 250")
+	// case 1000 <= c && c <= 6000:
+	// 	fmt.Println("от 1000 до 6000")
+
+	// var num,a,b,c int
+    // fmt.Scan(&num)
+    // a = num / 100
+    // b = num / 10 % 10
+    // c = num % 10
+    // if a == b || b == c {
+    //     fmt.Print("NO")
+    // }else {
+    //     fmt.Print("YES")
+    
+	// fmt.Print(10000%10)
+	// fmt.Print(1000%10)
+	// fmt.Print(100%10)
+	// fmt.Print(10%10)
+	// fmt.Print(1%10)
+	
+	// var n int
+	// fmt.Scan(&n)
+    // if n >= 10 {
+    //     n = n / 10
+    // }
+	// if n >= 10 {
+    //     n = n / 10
+    // }
+	// if n >= 10 {
+    //     n = n / 10
+    // }
+	// if n >= 10 {
+    //     n = n / 10
+    // }
+	// if n >= 10 {
+    //     n = n / 10
+    // }
+        
+    // fmt.Print(n)
+
+	// var num,a,b int
+    // fmt.Scan(&num)
+    // a = num % 10
+	// num /= 10
+    // a = a + num % 10
+	// num /= 10
+    // a = a + num % 10
+	// num /= 10
+    
+    // b = num % 10
+	// num /= 10
+	// b =  b + num % 10
+	// num /= 10
+	// b = b + num % 10
+	// num /= 10
+    // fmt.Print(a,b) 
+
+    // var s string
+    // fmt.Scan(&s)
+    // if s[0] + s[1] + s[2] == s[3] + s[4] + s[5] {
+	// 	fmt.Println("YES")
+	// 	} else {
+	// 		fmt.Println("NO")
+	// 	}
+		
+	// 	fmt.Print(s[0] + s[1] + s[2],s[3] + s[4] + s[5])
 	var a int
-    fmt.Scan(&a)
-    switch a {
-        case a < 0: 
-			fmt.Println("Oтрицательное число")
-        case a > 0: 
-			fmt.Println("Число положительное")
-        case 0: 
-			fmt.Println("ноль")
-
-}
-	
-	
-
+	fmt.Scan(&a)
+	fmt.Print(a%1000%9, a/1000%9)
 }
