@@ -18,5 +18,8 @@ func vote(x int, y int, z int) int {
 	// }
 
 	// return h
-	return x & y | x & z | y & z 
+
+	// return x & y | x & z | y & z 
+	
+	return (x + y + z) / 2
 }
