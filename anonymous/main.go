@@ -6,8 +6,6 @@ import (
 )
 
 func main() {
-	// }
-
 	fn := func(i uint) uint {
 		if i == 0 {
 			return 100
@@ -27,5 +25,6 @@ func main() {
 			return uint(l)
 		}
 	}
-
+	fn(0)
 }
+byt asd interface
